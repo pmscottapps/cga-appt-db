@@ -10,7 +10,7 @@ create or replace package body pl_api_logger as
 	-- test
 	procedure msg(p_msg in varchar2) is
 	begin
-		dbms_output.put_line('msg + : ' || p_msg);
+		dbms_output.put_line('msg ++++++ : ' || p_msg);
 	end;
 
     -- log na poziomie info
